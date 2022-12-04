@@ -4,3 +4,4 @@ export * from "./events-controller";
 export * from "./enrollments-controller";
 export * from "./ticket-controller"
 export * from "./hotels-controller"
+export * from "./booking-controller"
