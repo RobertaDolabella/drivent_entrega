@@ -1,582 +1,719 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1670112025643" clover="3.2.0">
-  <project timestamp="1670112025643" name="All files">
-    <metrics statements="564" coveredstatements="492" conditionals="71" coveredconditionals="43" methods="92" coveredmethods="74" elements="727" coveredelements="609" complexity="0" loc="564" ncloc="564" packages="23" files="62" classes="62"/>
+<coverage generated="1670277439459" clover="3.2.0">
+  <project timestamp="1670277439459" name="All files">
+    <metrics statements="680" coveredstatements="430" conditionals="80" coveredconditionals="15" methods="110" coveredmethods="41" elements="870" coveredelements="486" complexity="0" loc="680" ncloc="680" packages="26" files="70" classes="70"/>
     <package name="src">
-      <metrics statements="17" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <metrics statements="17" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
       <file name="app.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/app.ts">
-        <metrics statements="17" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="2" count="10" type="stmt"/>
-        <line num="3" count="10" type="stmt"/>
-        <line num="4" count="10" type="stmt"/>
-        <line num="6" count="10" type="stmt"/>
-        <line num="8" count="10" type="stmt"/>
-        <line num="10" count="10" type="stmt"/>
-        <line num="11" count="10" type="stmt"/>
-        <line num="13" count="10" type="stmt"/>
-        <line num="14" count="10" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="26" count="10" type="stmt"/>
-        <line num="27" count="10" type="stmt"/>
-        <line num="28" count="10" type="stmt"/>
-        <line num="31" count="10" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="35" count="10" type="stmt"/>
+        <metrics statements="17" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.config">
       <metrics statements="13" coveredstatements="12" conditionals="4" coveredconditionals="1" methods="3" coveredmethods="2"/>
       <file name="database.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/config/database.ts">
         <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
-        <line num="1" count="13" type="stmt"/>
-        <line num="4" count="13" type="stmt"/>
-        <line num="5" count="10" type="stmt"/>
-        <line num="8" count="13" type="stmt"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
       </file>
       <file name="envs.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/config/envs.ts">
         <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="1" methods="1" coveredmethods="1"/>
-        <line num="1" count="13" type="stmt"/>
-        <line num="2" count="13" type="stmt"/>
-        <line num="4" count="13" type="stmt"/>
-        <line num="6" count="23" type="cond" truecount="1" falsecount="1"/>
-        <line num="12" count="23" type="stmt"/>
-        <line num="13" count="23" type="stmt"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
       </file>
       <file name="index.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/config/index.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="13" type="stmt"/>
-        <line num="2" count="13" type="stmt"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.controllers">
-      <metrics statements="98" coveredstatements="85" conditionals="3" coveredconditionals="1" methods="11" coveredmethods="10"/>
+      <metrics statements="123" coveredstatements="58" conditionals="3" coveredconditionals="0" methods="14" coveredmethods="3"/>
       <file name="authentication-controller.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/controllers/authentication-controller.ts">
-        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="3" count="10" type="stmt"/>
-        <line num="4" count="10" type="stmt"/>
-        <line num="5" count="5" type="stmt"/>
-        <line num="7" count="5" type="stmt"/>
-        <line num="8" count="5" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="12" count="4" type="stmt"/>
+        <metrics statements="8" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+      </file>
+      <file name="booking-controller.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/controllers/booking-controller.ts">
+        <metrics statements="24" coveredstatements="24" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="5" type="stmt"/>
+        <line num="26" count="5" type="stmt"/>
+        <line num="28" count="5" type="stmt"/>
+        <line num="30" count="5" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="35" count="4" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="41" count="4" type="stmt"/>
+        <line num="43" count="4" type="stmt"/>
+        <line num="45" count="4" type="stmt"/>
+        <line num="47" count="4" type="stmt"/>
+        <line num="49" count="4" type="stmt"/>
+        <line num="51" count="4" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="56" count="3" type="stmt"/>
       </file>
       <file name="enrollments-controller.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/controllers/enrollments-controller.ts">
-        <metrics statements="24" coveredstatements="22" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="3"/>
-        <line num="2" count="10" type="stmt"/>
-        <line num="4" count="10" type="stmt"/>
-        <line num="6" count="10" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="18" count="10" type="stmt"/>
-        <line num="19" count="2" type="stmt"/>
-        <line num="20" count="2" type="stmt"/>
-        <line num="21" count="2" type="stmt"/>
-        <line num="22" count="2" type="stmt"/>
-        <line num="27" count="2" type="stmt"/>
+        <metrics statements="24" coveredstatements="5" conditionals="1" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
         <line num="29" count="0" type="stmt"/>
         <line num="30" count="0" type="stmt"/>
-        <line num="34" count="10" type="stmt"/>
-        <line num="35" count="2" type="stmt"/>
-        <line num="37" count="2" type="stmt"/>
-        <line num="38" count="2" type="stmt"/>
-        <line num="39" count="1" type="stmt"/>
-        <line num="41" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="42" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="41" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="42" count="0" type="stmt"/>
       </file>
       <file name="events-controller.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/controllers/events-controller.ts">
-        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="3" count="10" type="stmt"/>
-        <line num="5" count="10" type="stmt"/>
-        <line num="6" count="2" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
+        <metrics statements="7" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
       </file>
       <file name="hotels-controller.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/controllers/hotels-controller.ts">
-        <metrics statements="18" coveredstatements="12" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="1"/>
-        <line num="3" count="10" type="stmt"/>
-        <line num="4" count="10" type="stmt"/>
-        <line num="6" count="10" type="stmt"/>
+        <metrics statements="18" coveredstatements="6" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
         <line num="8" count="0" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
         <line num="13" count="0" type="stmt"/>
         <line num="16" count="0" type="stmt"/>
-        <line num="20" count="10" type="stmt"/>
-        <line num="22" count="3" type="stmt"/>
-        <line num="23" count="3" type="cond" truecount="0" falsecount="1"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="24" count="0" type="stmt"/>
-        <line num="27" count="3" type="stmt"/>
-        <line num="28" count="3" type="stmt"/>
-        <line num="30" count="1" type="stmt"/>
-        <line num="33" count="2" type="stmt"/>
-        <line num="37" count="10" type="stmt"/>
-        <line num="42" count="10" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
       </file>
       <file name="index.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/controllers/index.ts">
-        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="2" count="10" type="stmt"/>
-        <line num="3" count="10" type="stmt"/>
-        <line num="4" count="10" type="stmt"/>
-        <line num="5" count="10" type="stmt"/>
-        <line num="6" count="10" type="stmt"/>
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
       </file>
       <file name="ticket-controller.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/controllers/ticket-controller.ts">
-        <metrics statements="24" coveredstatements="22" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-        <line num="4" count="10" type="stmt"/>
-        <line num="5" count="10" type="stmt"/>
-        <line num="8" count="10" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
-        <line num="11" count="2" type="stmt"/>
-        <line num="13" count="2" type="stmt"/>
+        <metrics statements="24" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
         <line num="15" count="0" type="stmt"/>
-        <line num="19" count="10" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="23" count="1" type="stmt"/>
-        <line num="26" count="1" type="stmt"/>
-        <line num="27" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
         <line num="29" count="0" type="stmt"/>
-        <line num="31" count="1" type="stmt"/>
-        <line num="35" count="10" type="stmt"/>
-        <line num="37" count="3" type="stmt"/>
-        <line num="38" count="3" type="stmt"/>
-        <line num="39" count="3" type="stmt"/>
-        <line num="41" count="3" type="stmt"/>
-        <line num="43" count="3" type="stmt"/>
-        <line num="45" count="1" type="stmt"/>
-        <line num="47" count="2" type="stmt"/>
-        <line num="51" count="10" type="stmt"/>
-        <line num="57" count="10" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
       </file>
       <file name="users-controller.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/controllers/users-controller.ts">
-        <metrics statements="11" coveredstatements="8" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="3" count="10" type="stmt"/>
-        <line num="5" count="10" type="stmt"/>
-        <line num="6" count="6" type="stmt"/>
-        <line num="7" count="6" type="stmt"/>
-        <line num="8" count="6" type="stmt"/>
-        <line num="9" count="6" type="stmt"/>
-        <line num="10" count="6" type="stmt"/>
+        <metrics statements="11" coveredstatements="3" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
         <line num="15" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="16" count="0" type="stmt"/>
         <line num="18" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.errors">
-      <metrics statements="21" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="4"/>
+      <metrics statements="25" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="3"/>
       <file name="cannot-enroll-before-start-date-error.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/errors/cannot-enroll-before-start-date-error.ts">
         <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="10" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
         <line num="4" count="0" type="stmt"/>
       </file>
       <file name="conflict-error.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/errors/conflict-error.ts">
         <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="10" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
         <line num="4" count="0" type="stmt"/>
       </file>
+      <file name="forbidden-error.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/errors/forbidden-error.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
+      </file>
       <file name="index.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/errors/index.ts">
-        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="2" count="10" type="stmt"/>
-        <line num="3" count="10" type="stmt"/>
-        <line num="4" count="10" type="stmt"/>
-        <line num="5" count="10" type="stmt"/>
-        <line num="6" count="10" type="stmt"/>
-        <line num="7" count="10" type="stmt"/>
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
       </file>
       <file name="invalid-data-error.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/errors/invalid-data-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="10" type="stmt"/>
-        <line num="4" count="8" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
       </file>
       <file name="invalid-email-error.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/errors/invalid-email-error.ts">
         <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="10" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
         <line num="4" count="0" type="stmt"/>
       </file>
       <file name="not-found-error.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/errors/not-found-error.ts">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="10" type="stmt"/>
-        <line num="4" count="6" type="stmt"/>
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
       </file>
       <file name="request-error.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/errors/request-error.ts">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="10" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
       </file>
       <file name="unauthorized-error.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/errors/unauthorized-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="10" type="stmt"/>
-        <line num="4" count="21" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="9" type="stmt"/>
       </file>
     </package>
     <package name="src.middlewares">
-      <metrics statements="47" coveredstatements="41" conditionals="12" coveredconditionals="6" methods="8" coveredmethods="7"/>
+      <metrics statements="49" coveredstatements="33" conditionals="13" coveredconditionals="4" methods="8" coveredmethods="6"/>
       <file name="authentication-middleware.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/middlewares/authentication-middleware.ts">
         <metrics statements="17" coveredstatements="17" conditionals="3" coveredconditionals="2" methods="2" coveredmethods="2"/>
-        <line num="2" count="10" type="stmt"/>
-        <line num="3" count="10" type="stmt"/>
-        <line num="5" count="10" type="stmt"/>
-        <line num="6" count="10" type="stmt"/>
-        <line num="8" count="10" type="stmt"/>
-        <line num="9" count="38" type="stmt"/>
-        <line num="10" count="38" type="cond" truecount="1" falsecount="0"/>
-        <line num="12" count="31" type="stmt"/>
-        <line num="13" count="31" type="cond" truecount="0" falsecount="1"/>
-        <line num="15" count="31" type="stmt"/>
-        <line num="16" count="31" type="stmt"/>
-        <line num="18" count="24" type="stmt"/>
-        <line num="23" count="24" type="cond" truecount="1" falsecount="0"/>
-        <line num="25" count="17" type="stmt"/>
-        <line num="27" count="17" type="stmt"/>
-        <line num="29" count="7" type="stmt"/>
-        <line num="34" count="21" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="22" type="stmt"/>
+        <line num="10" count="22" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="19" type="stmt"/>
+        <line num="13" count="19" type="cond" truecount="0" falsecount="1"/>
+        <line num="15" count="19" type="stmt"/>
+        <line num="16" count="19" type="stmt"/>
+        <line num="18" count="16" type="stmt"/>
+        <line num="23" count="16" type="cond" truecount="1" falsecount="0"/>
+        <line num="25" count="13" type="stmt"/>
+        <line num="27" count="13" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="34" count="9" type="stmt"/>
       </file>
       <file name="error-handling-middleware.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/middlewares/error-handling-middleware.ts">
-        <metrics statements="15" coveredstatements="10" conditionals="7" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="3" count="10" type="stmt"/>
-        <line num="5" count="10" type="stmt"/>
-        <line num="6" count="12" type="stmt"/>
-        <line num="7" count="12" type="cond" truecount="0" falsecount="1"/>
+        <metrics statements="17" coveredstatements="2" conditionals="8" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="8" count="0" type="stmt"/>
-        <line num="13" count="12" type="cond" truecount="2" falsecount="1"/>
+        <line num="13" count="0" type="cond" truecount="0" falsecount="3"/>
         <line num="14" count="0" type="stmt"/>
-        <line num="20" count="12" type="cond" truecount="0" falsecount="1"/>
+        <line num="20" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="21" count="0" type="stmt"/>
-        <line num="27" count="12" type="cond" truecount="0" falsecount="1"/>
+        <line num="27" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="28" count="0" type="stmt"/>
-        <line num="34" count="12" type="cond" truecount="0" falsecount="1"/>
+        <line num="34" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="35" count="0" type="stmt"/>
-        <line num="42" count="12" type="stmt"/>
-        <line num="43" count="12" type="stmt"/>
+        <line num="41" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
       </file>
       <file name="index.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/middlewares/index.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="2" count="10" type="stmt"/>
-        <line num="3" count="10" type="stmt"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
       </file>
       <file name="validation-middleware.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/middlewares/validation-middleware.ts">
         <metrics statements="12" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="4"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="3" count="10" type="stmt"/>
-        <line num="6" count="10" type="stmt"/>
-        <line num="7" count="40" type="stmt"/>
-        <line num="8" count="40" type="stmt"/>
-        <line num="11" count="10" type="stmt"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
-        <line num="16" count="40" type="stmt"/>
-        <line num="17" count="24" type="stmt"/>
-        <line num="21" count="24" type="cond" truecount="2" falsecount="0"/>
-        <line num="22" count="16" type="stmt"/>
-        <line num="24" count="24" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="17" count="11" type="stmt"/>
+        <line num="21" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="9" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.repositories.address-repository">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="index.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/repositories/address-repository/index.ts">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="20" count="10" type="stmt"/>
-        <line num="24" count="10" type="stmt"/>
+        <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.repositories.booking-repository">
+      <metrics statements="9" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="4"/>
+      <file name="index.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/repositories/booking-repository/index.ts">
+        <metrics statements="9" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="4"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.repositories.enrollment-repository">
-      <metrics statements="9" coveredstatements="7" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="2"/>
+      <metrics statements="9" coveredstatements="5" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="1"/>
       <file name="index.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/repositories/enrollment-repository/index.ts">
-        <metrics statements="9" coveredstatements="7" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="2"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="6" count="6" type="stmt"/>
-        <line num="7" count="6" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="32" count="2" type="stmt"/>
-        <line num="33" count="2" type="stmt"/>
-        <line num="46" count="10" type="stmt"/>
-        <line num="52" count="10" type="stmt"/>
+        <metrics statements="9" coveredstatements="5" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="17" count="9" type="stmt"/>
+        <line num="24" count="9" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.repositories.event-repository">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="index.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/repositories/event-repository/index.ts">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="7" count="10" type="stmt"/>
-        <line num="11" count="10" type="stmt"/>
+        <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.repositories.hotel-repository">
-      <metrics statements="9" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <metrics statements="9" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
       <file name="index.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/repositories/hotel-repository/index.ts">
-        <metrics statements="9" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="4" count="10" type="stmt"/>
+        <metrics statements="9" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
-        <line num="10" count="10" type="stmt"/>
-        <line num="12" count="3" type="stmt"/>
-        <line num="18" count="2" type="stmt"/>
-        <line num="22" count="10" type="stmt"/>
-        <line num="27" count="10" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.repositories.room-repository">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="index.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/repositories/room-repository/index.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.repositories.session-repository">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="index.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/repositories/session-repository/index.ts">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="5" count="4" type="stmt"/>
-        <line num="10" count="10" type="stmt"/>
-        <line num="14" count="10" type="stmt"/>
+        <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.repositories.ticketsType-repository">
-      <metrics statements="17" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="3"/>
+      <metrics statements="17" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="1"/>
       <file name="index.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/repositories/ticketsType-repository/index.ts">
-        <metrics statements="17" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="3"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="24" count="2" type="stmt"/>
-        <line num="26" count="2" type="stmt"/>
-        <line num="27" count="2" type="stmt"/>
-        <line num="32" count="1" type="stmt"/>
-        <line num="40" count="1" type="stmt"/>
-        <line num="45" count="4" type="stmt"/>
-        <line num="49" count="4" type="stmt"/>
-        <line num="52" count="10" type="stmt"/>
+        <metrics statements="17" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
         <line num="54" count="0" type="stmt"/>
         <line num="58" count="0" type="stmt"/>
-        <line num="62" count="10" type="stmt"/>
-        <line num="70" count="10" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="70" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.repositories.user-repository">
-      <metrics statements="10" coveredstatements="10" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <metrics statements="10" coveredstatements="3" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="0"/>
       <file name="index.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/repositories/user-repository/index.ts">
-        <metrics statements="10" coveredstatements="10" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="5" count="18" type="stmt"/>
-        <line num="6" count="18" type="stmt"/>
-        <line num="12" count="18" type="cond" truecount="1" falsecount="0"/>
-        <line num="13" count="9" type="stmt"/>
-        <line num="16" count="18" type="stmt"/>
-        <line num="20" count="8" type="stmt"/>
-        <line num="21" count="8" type="stmt"/>
-        <line num="29" count="10" type="stmt"/>
-        <line num="34" count="10" type="stmt"/>
+        <metrics statements="10" coveredstatements="3" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="12" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.routers">
-      <metrics statements="45" coveredstatements="45" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="53" coveredstatements="53" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="authentication-router.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/routers/authentication-router.ts">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="2" count="10" type="stmt"/>
-        <line num="3" count="10" type="stmt"/>
-        <line num="4" count="10" type="stmt"/>
-        <line num="6" count="10" type="stmt"/>
-        <line num="8" count="10" type="stmt"/>
-        <line num="10" count="10" type="stmt"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+      <file name="booking-router.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/routers/booking-router.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
       </file>
       <file name="enrollments-router.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/routers/enrollments-router.ts">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="2" count="10" type="stmt"/>
-        <line num="3" count="10" type="stmt"/>
-        <line num="4" count="10" type="stmt"/>
-        <line num="6" count="10" type="stmt"/>
-        <line num="8" count="10" type="stmt"/>
-        <line num="14" count="10" type="stmt"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
       </file>
       <file name="events-router.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/routers/events-router.ts">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="2" count="10" type="stmt"/>
-        <line num="4" count="10" type="stmt"/>
-        <line num="6" count="10" type="stmt"/>
-        <line num="8" count="10" type="stmt"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
       </file>
       <file name="hotels-router.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/routers/hotels-router.ts">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="2" count="10" type="stmt"/>
-        <line num="3" count="10" type="stmt"/>
-        <line num="6" count="10" type="stmt"/>
-        <line num="8" count="10" type="stmt"/>
-        <line num="14" count="10" type="stmt"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
       </file>
       <file name="index.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/routers/index.ts">
-        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="2" count="10" type="stmt"/>
-        <line num="3" count="10" type="stmt"/>
-        <line num="4" count="10" type="stmt"/>
-        <line num="5" count="10" type="stmt"/>
-        <line num="6" count="10" type="stmt"/>
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
       </file>
       <file name="ticket-router.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/routers/ticket-router.ts">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="2" count="10" type="stmt"/>
-        <line num="3" count="10" type="stmt"/>
-        <line num="4" count="10" type="stmt"/>
-        <line num="6" count="10" type="stmt"/>
-        <line num="8" count="10" type="stmt"/>
-        <line num="14" count="10" type="stmt"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
       </file>
       <file name="users-router.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/routers/users-router.ts">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="3" count="10" type="stmt"/>
-        <line num="4" count="10" type="stmt"/>
-        <line num="5" count="10" type="stmt"/>
-        <line num="7" count="10" type="stmt"/>
-        <line num="9" count="10" type="stmt"/>
-        <line num="11" count="10" type="stmt"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.schemas">
-      <metrics statements="29" coveredstatements="28" conditionals="6" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <metrics statements="32" coveredstatements="20" conditionals="6" coveredconditionals="0" methods="4" coveredmethods="1"/>
       <file name="authentication-schemas.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/schemas/authentication-schemas.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="2" count="13" type="stmt"/>
-        <line num="4" count="13" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="booking-schemas.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/schemas/booking-schemas.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
       </file>
       <file name="enrollments-schemas.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/schemas/enrollments-schemas.ts">
-        <metrics statements="19" coveredstatements="18" conditionals="6" coveredconditionals="2" methods="4" coveredmethods="4"/>
-        <line num="2" count="13" type="stmt"/>
-        <line num="3" count="13" type="stmt"/>
-        <line num="5" count="13" type="stmt"/>
-        <line num="7" count="13" type="stmt"/>
-        <line num="9" count="13" type="stmt"/>
-        <line num="11" count="13" type="stmt"/>
-        <line num="23" count="351" type="stmt"/>
-        <line num="31" count="29" type="cond" truecount="0" falsecount="1"/>
-        <line num="33" count="29" type="cond" truecount="1" falsecount="0"/>
-        <line num="34" count="1" type="stmt"/>
-        <line num="37" count="28" type="stmt"/>
-        <line num="41" count="19" type="cond" truecount="0" falsecount="1"/>
-        <line num="43" count="19" type="cond" truecount="1" falsecount="0"/>
-        <line num="44" count="1" type="stmt"/>
-        <line num="47" count="18" type="stmt"/>
-        <line num="51" count="23" type="cond" truecount="0" falsecount="1"/>
-        <line num="53" count="23" type="cond" truecount="0" falsecount="1"/>
+        <metrics statements="19" coveredstatements="7" conditionals="6" coveredconditionals="0" methods="4" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="23" count="27" type="stmt"/>
+        <line num="31" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="33" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="41" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="43" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="51" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="53" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="54" count="0" type="stmt"/>
-        <line num="57" count="23" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
       </file>
       <file name="index.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/schemas/index.ts">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="13" type="stmt"/>
-        <line num="2" count="13" type="stmt"/>
-        <line num="3" count="13" type="stmt"/>
-        <line num="4" count="13" type="stmt"/>
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
       </file>
       <file name="ticket-schemas.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/schemas/ticket-schemas.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="13" type="stmt"/>
-        <line num="3" count="13" type="stmt"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
       </file>
       <file name="users-schemas.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/schemas/users-schemas.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="2" count="13" type="stmt"/>
-        <line num="4" count="13" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.services.authentication-service">
-      <metrics statements="24" coveredstatements="24" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
+      <metrics statements="24" coveredstatements="10" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="0"/>
       <file name="errors.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/services/authentication-service/errors.ts">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="10" type="stmt"/>
-        <line num="4" count="7" type="stmt"/>
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
       </file>
       <file name="index.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/services/authentication-service/index.ts">
-        <metrics statements="22" coveredstatements="22" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="2" count="10" type="stmt"/>
-        <line num="3" count="10" type="stmt"/>
-        <line num="5" count="10" type="stmt"/>
-        <line num="6" count="10" type="stmt"/>
-        <line num="7" count="10" type="stmt"/>
-        <line num="10" count="9" type="stmt"/>
-        <line num="12" count="9" type="stmt"/>
-        <line num="14" count="6" type="stmt"/>
-        <line num="16" count="4" type="stmt"/>
+        <metrics statements="22" coveredstatements="9" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="43" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.services.booking-service">
+      <metrics statements="48" coveredstatements="43" conditionals="8" coveredconditionals="3" methods="4" coveredmethods="4"/>
+      <file name="index.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/services/booking-service/index.ts">
+        <metrics statements="48" coveredstatements="43" conditionals="8" coveredconditionals="3" methods="4" coveredmethods="4"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
         <line num="18" count="1" type="stmt"/>
-        <line num="25" count="9" type="stmt"/>
-        <line num="26" count="9" type="cond" truecount="1" falsecount="0"/>
-        <line num="28" count="6" type="stmt"/>
-        <line num="32" count="4" type="stmt"/>
-        <line num="33" count="4" type="stmt"/>
+        <line num="22" count="5" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="26" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="30" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
         <line num="38" count="1" type="stmt"/>
-        <line num="42" count="6" type="stmt"/>
-        <line num="43" count="6" type="cond" truecount="1" falsecount="0"/>
-        <line num="55" count="10" type="stmt"/>
-        <line num="59" count="10" type="stmt"/>
-        <line num="60" count="10" type="stmt"/>
+        <line num="43" count="9" type="stmt"/>
+        <line num="44" count="9" type="stmt"/>
+        <line num="46" count="9" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="50" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="51" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="57" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="59" count="7" type="stmt"/>
+        <line num="61" count="2" type="stmt"/>
+        <line num="67" count="4" type="stmt"/>
+        <line num="69" count="1" type="stmt"/>
+        <line num="71" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="75" count="1" type="stmt"/>
+        <line num="78" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="81" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="84" count="1" type="stmt"/>
+        <line num="86" count="1" type="stmt"/>
+        <line num="88" count="1" type="stmt"/>
+        <line num="90" count="1" type="stmt"/>
+        <line num="92" count="1" type="stmt"/>
+        <line num="94" count="1" type="stmt"/>
+        <line num="96" count="1" type="stmt"/>
+        <line num="98" count="1" type="stmt"/>
+        <line num="101" count="1" type="stmt"/>
+        <line num="107" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.services.enrollments-service">
-      <metrics statements="30" coveredstatements="28" conditionals="8" coveredconditionals="6" methods="5" coveredmethods="5"/>
+      <metrics statements="30" coveredstatements="7" conditionals="8" coveredconditionals="0" methods="5" coveredmethods="0"/>
       <file name="index.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/services/enrollments-service/index.ts">
-        <metrics statements="30" coveredstatements="28" conditionals="8" coveredconditionals="6" methods="5" coveredmethods="5"/>
-        <line num="3" count="10" type="stmt"/>
-        <line num="4" count="10" type="stmt"/>
-        <line num="5" count="10" type="stmt"/>
-        <line num="6" count="10" type="stmt"/>
-        <line num="7" count="10" type="stmt"/>
-        <line num="12" count="4" type="stmt"/>
-        <line num="14" count="4" type="cond" truecount="1" falsecount="0"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="24" count="3" type="stmt"/>
-        <line num="26" count="3" type="stmt"/>
-        <line num="33" count="3" type="stmt"/>
-        <line num="37" count="2" type="stmt"/>
-        <line num="39" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="41" count="1" type="stmt"/>
-        <line num="42" count="1" type="stmt"/>
-        <line num="44" count="1" type="stmt"/>
-        <line num="53" count="1" type="cond" truecount="1" falsecount="0"/>
+        <metrics statements="30" coveredstatements="7" conditionals="8" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="39" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="53" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="55" count="0" type="stmt"/>
-        <line num="61" count="2" type="stmt"/>
-        <line num="63" count="2" type="stmt"/>
-        <line num="64" count="2" type="stmt"/>
-        <line num="67" count="2" type="stmt"/>
-        <line num="68" count="2" type="stmt"/>
-        <line num="69" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="69" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="70" count="0" type="stmt"/>
-        <line num="74" count="2" type="stmt"/>
-        <line num="76" count="2" type="stmt"/>
-        <line num="80" count="2" type="stmt"/>
-        <line num="90" count="10" type="stmt"/>
-        <line num="96" count="10" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="90" count="1" type="stmt"/>
+        <line num="96" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.services.events-service">
-      <metrics statements="20" coveredstatements="9" conditionals="4" coveredconditionals="1" methods="2" coveredmethods="1"/>
+      <metrics statements="20" coveredstatements="6" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
       <file name="index.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/services/events-service/index.ts">
-        <metrics statements="20" coveredstatements="9" conditionals="4" coveredconditionals="1" methods="2" coveredmethods="1"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="2" count="10" type="stmt"/>
-        <line num="3" count="10" type="stmt"/>
-        <line num="5" count="10" type="stmt"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="9" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="11" count="1" type="stmt"/>
+        <metrics statements="20" coveredstatements="6" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="11" count="0" type="stmt"/>
         <line num="17" count="0" type="stmt"/>
         <line num="18" count="0" type="stmt"/>
         <line num="19" count="0" type="cond" truecount="0" falsecount="1"/>
@@ -588,18 +725,18 @@
         <line num="27" count="0" type="stmt"/>
         <line num="28" count="0" type="stmt"/>
         <line num="29" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="32" count="10" type="stmt"/>
-        <line num="37" count="10" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.services.hotels-service">
-      <metrics statements="25" coveredstatements="10" conditionals="4" coveredconditionals="1" methods="3" coveredmethods="1"/>
+      <metrics statements="25" coveredstatements="6" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
       <file name="index.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/services/hotels-service/index.ts">
-        <metrics statements="25" coveredstatements="10" conditionals="4" coveredconditionals="1" methods="3" coveredmethods="1"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="2" count="10" type="stmt"/>
-        <line num="4" count="10" type="stmt"/>
-        <line num="5" count="10" type="stmt"/>
+        <metrics statements="25" coveredstatements="6" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
         <line num="15" count="0" type="stmt"/>
         <line num="18" count="0" type="stmt"/>
@@ -615,210 +752,222 @@
         <line num="34" count="0" type="stmt"/>
         <line num="39" count="0" type="stmt"/>
         <line num="40" count="0" type="stmt"/>
-        <line num="45" count="3" type="stmt"/>
-        <line num="47" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="48" count="1" type="stmt"/>
-        <line num="51" count="1" type="stmt"/>
-        <line num="54" count="10" type="stmt"/>
-        <line num="58" count="10" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="47" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.services.tickets-service">
-      <metrics statements="25" coveredstatements="20" conditionals="3" coveredconditionals="1" methods="4" coveredmethods="4"/>
+      <metrics statements="25" coveredstatements="8" conditionals="3" coveredconditionals="0" methods="4" coveredmethods="0"/>
       <file name="index.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/services/tickets-service/index.ts">
-        <metrics statements="25" coveredstatements="20" conditionals="3" coveredconditionals="1" methods="4" coveredmethods="4"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="2" count="10" type="stmt"/>
-        <line num="3" count="10" type="stmt"/>
-        <line num="7" count="10" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="11" count="2" type="cond" truecount="0" falsecount="1"/>
+        <metrics statements="25" coveredstatements="8" conditionals="3" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="12" count="0" type="stmt"/>
-        <line num="15" count="2" type="stmt"/>
-        <line num="18" count="10" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
         <line num="22" count="0" type="stmt"/>
         <line num="24" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="25" count="0" type="stmt"/>
         <line num="27" count="0" type="stmt"/>
-        <line num="32" count="4" type="stmt"/>
-        <line num="34" count="4" type="cond" truecount="1" falsecount="0"/>
-        <line num="35" count="2" type="stmt"/>
-        <line num="38" count="2" type="stmt"/>
-        <line num="41" count="10" type="stmt"/>
-        <line num="43" count="3" type="stmt"/>
-        <line num="45" count="2" type="stmt"/>
-        <line num="47" count="2" type="stmt"/>
-        <line num="49" count="1" type="stmt"/>
-        <line num="53" count="10" type="stmt"/>
-        <line num="59" count="10" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="34" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.services.users-service">
-      <metrics statements="20" coveredstatements="17" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="3"/>
+      <metrics statements="20" coveredstatements="10" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="0"/>
       <file name="errors.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/services/users-service/errors.ts">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="10" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
       </file>
       <file name="index.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/services/users-service/index.ts">
-        <metrics statements="18" coveredstatements="15" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="2"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="2" count="10" type="stmt"/>
-        <line num="4" count="10" type="stmt"/>
-        <line num="5" count="10" type="stmt"/>
-        <line num="6" count="10" type="stmt"/>
-        <line num="8" count="10" type="stmt"/>
-        <line num="11" count="9" type="stmt"/>
-        <line num="13" count="8" type="stmt"/>
-        <line num="14" count="8" type="stmt"/>
-        <line num="21" count="9" type="stmt"/>
-        <line num="22" count="9" type="cond" truecount="1" falsecount="0"/>
-        <line num="23" count="1" type="stmt"/>
+        <metrics statements="18" coveredstatements="9" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="23" count="0" type="stmt"/>
         <line num="28" count="0" type="stmt"/>
         <line num="29" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="30" count="0" type="stmt"/>
-        <line num="36" count="10" type="stmt"/>
-        <line num="40" count="10" type="stmt"/>
-        <line num="41" count="10" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.utils">
-      <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <metrics statements="17" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
       <file name="cep-service.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/utils/cep-service.ts">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="10" type="stmt"/>
-        <line num="5" count="4" type="stmt"/>
-        <line num="6" count="4" type="stmt"/>
-        <line num="10" count="10" type="stmt"/>
+        <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
       </file>
       <file name="prisma-utils.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/utils/prisma-utils.ts">
-        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="2" count="7" type="stmt"/>
-        <line num="3" count="7" type="stmt"/>
-        <line num="4" count="11" type="stmt"/>
-        <line num="6" count="7" type="stmt"/>
+        <metrics statements="5" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
       </file>
       <file name="request.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/src/utils/request.ts">
-        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="2" count="10" type="stmt"/>
-        <line num="5" count="4" type="stmt"/>
-        <line num="6" count="4" type="stmt"/>
-        <line num="7" count="3" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="18" count="10" type="stmt"/>
+        <metrics statements="8" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
       </file>
     </package>
     <package name="tests">
-      <metrics statements="20" coveredstatements="20" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <metrics statements="21" coveredstatements="21" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
       <file name="helpers.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/tests/helpers.ts">
-        <metrics statements="20" coveredstatements="20" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
-        <line num="1" count="9" type="stmt"/>
-        <line num="4" count="9" type="stmt"/>
-        <line num="5" count="9" type="stmt"/>
-        <line num="6" count="9" type="stmt"/>
-        <line num="8" count="9" type="stmt"/>
-        <line num="9" count="52" type="stmt"/>
-        <line num="10" count="52" type="stmt"/>
-        <line num="11" count="52" type="stmt"/>
-        <line num="12" count="52" type="stmt"/>
-        <line num="13" count="51" type="stmt"/>
-        <line num="14" count="51" type="stmt"/>
-        <line num="15" count="51" type="stmt"/>
-        <line num="16" count="50" type="stmt"/>
-        <line num="17" count="50" type="stmt"/>
-        <line num="18" count="50" type="stmt"/>
-        <line num="22" count="9" type="stmt"/>
-        <line num="23" count="32" type="cond" truecount="2" falsecount="0"/>
-        <line num="24" count="32" type="stmt"/>
-        <line num="26" count="32" type="stmt"/>
-        <line num="28" count="32" type="stmt"/>
+        <metrics statements="21" coveredstatements="21" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="22" type="stmt"/>
+        <line num="10" count="22" type="stmt"/>
+        <line num="11" count="22" type="stmt"/>
+        <line num="12" count="22" type="stmt"/>
+        <line num="13" count="22" type="stmt"/>
+        <line num="14" count="22" type="stmt"/>
+        <line num="15" count="22" type="stmt"/>
+        <line num="16" count="22" type="stmt"/>
+        <line num="17" count="22" type="stmt"/>
+        <line num="18" count="22" type="stmt"/>
+        <line num="19" count="22" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="13" type="cond" truecount="1" falsecount="1"/>
+        <line num="25" count="13" type="stmt"/>
+        <line num="27" count="13" type="stmt"/>
+        <line num="29" count="13" type="stmt"/>
       </file>
     </package>
     <package name="tests.factories">
-      <metrics statements="56" coveredstatements="53" conditionals="18" coveredconditionals="17" methods="13" coveredmethods="10"/>
+      <metrics statements="64" coveredstatements="58" conditionals="18" coveredconditionals="6" methods="16" coveredmethods="11"/>
+      <file name="booking-factory.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/tests/factories/booking-factory.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+      </file>
       <file name="enrollments-factory.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/tests/factories/enrollments-factory.ts">
-        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
-        <line num="1" count="9" type="stmt"/>
-        <line num="2" count="9" type="stmt"/>
-        <line num="5" count="9" type="stmt"/>
-        <line num="6" count="9" type="stmt"/>
-        <line num="8" count="9" type="stmt"/>
-        <line num="9" count="19" type="cond" truecount="1" falsecount="1"/>
-        <line num="11" count="19" type="stmt"/>
-        <line num="35" count="9" type="stmt"/>
-        <line num="36" count="1" type="stmt"/>
+        <metrics statements="9" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
       </file>
       <file name="events-factory.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/tests/factories/events-factory.ts">
-        <metrics statements="5" coveredstatements="5" conditionals="11" coveredconditionals="11" methods="1" coveredmethods="1"/>
-        <line num="1" count="9" type="stmt"/>
-        <line num="2" count="9" type="stmt"/>
-        <line num="4" count="9" type="stmt"/>
-        <line num="6" count="9" type="cond" truecount="1" falsecount="0"/>
-        <line num="7" count="4" type="stmt"/>
+        <metrics statements="5" coveredstatements="4" conditionals="11" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="7" count="0" type="stmt"/>
       </file>
       <file name="hotel-factory.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/tests/factories/hotel-factory.ts">
-        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="1" count="9" type="stmt"/>
-        <line num="2" count="9" type="stmt"/>
-        <line num="7" count="9" type="stmt"/>
-        <line num="8" count="3" type="stmt"/>
-        <line num="18" count="9" type="stmt"/>
-        <line num="19" count="2" type="stmt"/>
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="12" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="12" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
       </file>
       <file name="index.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/tests/factories/index.ts">
-        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="9" type="stmt"/>
-        <line num="2" count="9" type="stmt"/>
-        <line num="3" count="9" type="stmt"/>
-        <line num="4" count="9" type="stmt"/>
-        <line num="5" count="9" type="stmt"/>
-        <line num="6" count="9" type="stmt"/>
-        <line num="7" count="9" type="stmt"/>
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
       </file>
       <file name="payments-factory.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/tests/factories/payments-factory.ts">
-        <metrics statements="7" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
-        <line num="1" count="9" type="stmt"/>
-        <line num="2" count="9" type="stmt"/>
-        <line num="4" count="9" type="stmt"/>
+        <metrics statements="7" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
-        <line num="15" count="9" type="stmt"/>
-        <line num="16" count="4" type="stmt"/>
-        <line num="18" count="4" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
       </file>
       <file name="sessions-factory.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/tests/factories/sessions-factory.ts">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="9" type="stmt"/>
-        <line num="3" count="9" type="stmt"/>
-        <line num="5" count="9" type="stmt"/>
-        <line num="6" count="32" type="stmt"/>
-        <line num="8" count="32" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="13" type="stmt"/>
+        <line num="8" count="13" type="stmt"/>
       </file>
       <file name="tickets-factory.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/tests/factories/tickets-factory.ts">
-        <metrics statements="10" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
-        <line num="1" count="9" type="stmt"/>
-        <line num="2" count="9" type="stmt"/>
-        <line num="5" count="9" type="stmt"/>
-        <line num="6" count="10" type="stmt"/>
-        <line num="16" count="9" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="27" count="9" type="stmt"/>
-        <line num="28" count="5" type="stmt"/>
-        <line num="37" count="9" type="stmt"/>
-        <line num="38" count="0" type="stmt"/>
+        <metrics statements="10" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="4" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
       </file>
       <file name="users-factory.ts" path="/home/roberta/Área de Trabalho/drivent_entrega/tests/factories/users-factory.ts">
         <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
-        <line num="1" count="9" type="stmt"/>
-        <line num="2" count="9" type="stmt"/>
-        <line num="4" count="9" type="stmt"/>
-        <line num="6" count="9" type="cond" truecount="1" falsecount="0"/>
-        <line num="7" count="82" type="cond" truecount="2" falsecount="0"/>
-        <line num="8" count="82" type="stmt"/>
-        <line num="10" count="82" type="stmt"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="29" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="29" type="stmt"/>
+        <line num="10" count="29" type="stmt"/>
       </file>
     </package>
   </project>
