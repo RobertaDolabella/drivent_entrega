@@ -10,6 +10,7 @@ import { createEnrollmentWithAddress, createUser,createBooking, createTicket, cr
 import { cleanDb, generateValidToken } from "../helpers";
 import dayjs from "dayjs";
 import { enrollmentsRouter } from "@/routers";
+import roomRepository from "@/repositories/room-repository";
 
 
 beforeAll(async () => {
@@ -122,9 +123,12 @@ it("should respond with status 403 and with no ticket status RESERVED", async ()
   const enrollment = await createEnrollmentWithAddress(user);
   const hotelStatus: boolean = true
   const ticketType = await createTicketTypeIncludeHotel(hotelStatus);
-  const ticket = await createTicket(enrollment.id, ticketType.id, TicketStatus.RESERVED);
+  const ticket = await createTicket(enrollment.id, ticketType.id, TicketStatus.RESERVED)
+  const hotel = await createHotelType()
+  const room = await createRoomType(hotel.id)
 
-  const response = await server.post("/booking").set("Authorization", `Bearer ${token}`);
+  const response = await server.post("/booking").set("Authorization", `Bearer ${token}`).send({
+    roomId: room.id})
 
   expect(response.status).toEqual(httpStatus.NOT_FOUND);
 })
@@ -245,7 +249,9 @@ describe("PUT /booking", () => {
     const room = await createRoomType(hotel.id)
     const book = await createBooking(user.id, room.id)
   
-    const response = await server.put(`/booking/${book.id}`).set("Authorization", `Bearer ${token}`);
+    const response = await server.put(`/booking/${book.id}`).set("Authorization", `Bearer ${token}`).send({
+      roomId: room.id})
+    
   
     expect(response.status).toEqual(httpStatus.NOT_FOUND);
   })

@@ -44,7 +44,6 @@ export async function switchRoom(req: AuthenticatedRequest, res: Response) {
 
     const bookingId  = Number(req.params.bookingId)
 
-    console.log("aqui é o bookingId", bookingId)
 
     try {
 
